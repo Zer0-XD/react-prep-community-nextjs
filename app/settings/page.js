@@ -236,20 +236,6 @@ export default function SettingsPage() {
       {/* About */}
       <SettingSection title="About" description="App information">
         <SettingRow
-          label="Question source"
-          description="sudheerj/reactjs-interview-questions"
-          control={
-            <a
-              href="https://github.com/Zer0-XD/frontend-prep-nextjs"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-xs underline underline-offset-2 text-muted-foreground hover:text-foreground transition-colors"
-            >
-              GitHub ↗
-            </a>
-          }
-        />
-        <SettingRow
           label="Total questions"
           description="All React interview Q&As"
           control={
