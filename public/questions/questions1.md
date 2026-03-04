@@ -3551,7 +3551,7 @@ class ParentComponent extends React.Component {
     ```javascript
     this.props.history.push({
       pathname: "/template",
-      search: "?name=sudheer",
+      search: "?name=Anees",
       state: { detail: response.data
     },
 });
@@ -7745,7 +7745,7 @@ Technically it is possible to write nested function components but it is not sug
 } from 'react';
 
       const users = [
-    { id: 1, name: 'Sudheer'
+    { id: 1, name: 'Anees'
     },
     { id: 2, name: 'Brendon'
     },
@@ -7845,7 +7845,7 @@ Technically it is possible to write nested function components but it is not sug
 
      In many cases, such as setting state based on user input or assigning static values, you don’t need the updater function:
      ```js
-     setName('Sudheer');
+     setName('Anees');
      ```
      
 **[⬆ Back to Top
@@ -7893,8 +7893,8 @@ Technically it is possible to write nested function components but it is not sug
      But you needs to be cautious with **reference types (objects/arrays)** because React compares old and new values **by reference**, so direct mutations won't trigger a re-render.
      For example, the correct and wrong ways of state updates as shown below, 
      ```js
-     user.name = "Sudheer"; //wrong way
-     setUser(prev => ({ ...prev, name: 'Sudheer'
+     user.name = "Anees"; //wrong way
+     setUser(prev => ({ ...prev, name: 'Anees'
 })); //correct way
      ```
 **[⬆ Back to Top
@@ -8384,7 +8384,7 @@ Technically it is possible to write nested function components but it is not sug
         return (
           <ThemeContext.Provider value="dark">
             <UserContext.Provider value={
-        { name: 'Sudheer'
+        { name: 'Anees'
         }
     }>
               <Dashboard />
@@ -9765,7 +9765,7 @@ Technically it is possible to write nested function components but it is not sug
     #### Example
 
     ```jsx
-    this.setState({ name: "Sudheer"
+    this.setState({ name: "Anees"
 }, () => {
       console.log("The name has been updated and the component has re-rendered.");
 });
